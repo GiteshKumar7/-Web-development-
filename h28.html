@@ -1,0 +1,150 @@
+<!--HTML level 3 practice questions-->
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+ </head>
+ <body>
+         <!--Qs1.RecreatethefollowingtableusingHTML-->
+           <table border="black">
+            <caption>Student Information</caption>
+             <tr>
+                    <th rowspan="6">Info</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">Address</th>
+              </tr>
+
+              <tr>
+                 <th>City</th>z
+                 <th>House</th>
+              </tr>
+           
+              <tr>
+                <td>A </td>
+                <td>Delhi</td>
+                <td>1</td>
+              </tr>
+
+               <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+              </tr>
+
+               <tr>
+                <td>C </td>
+                <td>Kolkata</td>
+                <td>3</td>
+              </tr>
+
+               <tr>
+                <td>D </td>
+                <td>pune</td>
+                <td>4</td>
+              </tr>
+
+           </table>
+
+           <hr>
+             <hr>
+
+          <!--Q2 ecreatethefollowingformusingHTML-->
+            
+          <form>
+             <div>
+                 <label for="n"> Name :</label>
+                <input type="text" name="name" id="n">
+             </div>
+
+             <div>
+                 <label for="name"> Sex:</label>
+                 <input type="radio" name="nam" id="m">
+                  <label for="m"> male</label>
+
+                   <input type="radio" name="nam" id="f">
+                  <label for="f"> female</label>
+
+             </div>
+                  
+             <br>
+               <div>
+                       <label for="s">Country</label>
+                      <select placeholder="select an option" id="s" >
+                          <option for="s">India </option>
+                          <option for="s">Nepal </option>
+                         <option for="s">USA </option>   
+                           <option for="s">ISrael </option>    
+                      </select>
+               </div>
+
+                <br>
+              <div>
+                   <label for="m"> Message:</label>
+                  <textarea id=" message" placeholder="message" name="me" id="m" row="3" col="3"></textarea>
+              </div>
+
+              <div>
+                   <input type="checkbox" id="check" name="c" >
+                   <label for="check">subscribe?</label>
+              </div>
+     
+              <button>submit</button>
+
+          </form>
+
+          <hr>
+           <hr>
+
+
+          <!--Q3 feedback form--->
+   
+          <h2>Feedback Form</h2>
+           <form action="/contact">
+               <div>
+                    <label for="n"> Name :</label>
+                   <input type="text" placeholder="Write your name" id="n" name="name">    
+    
+                  <br>
+                  <br>
+                    <label for="n"> Email :</label>
+                   <input type="text" placeholder="Write your email" id="n" name="name">    
+               </div>
+       
+
+
+               <dv>
+                   <br>
+                     <label for="m"> Message</label>
+                    <textarea id="m" name="me" row="4" col="4"></textarea>
+
+                    <br>
+                    <label for="r">Rate us our of 5:</label>
+                      <br>
+                    <input type="checkbox" id="r" name="ra" >
+                    <label for="r">1</label>
+                     <br>
+
+                     <input type="checkbox" id="s" name="ra" >
+                    <label for="s">2</label>
+                    <br>
+
+                       <input type="checkbox" id="e" name="ra" >
+                    <label for="e">3</label>
+                       <br>
+
+                       <input type="checkbox" id="e" name="ra" >
+                    <label for="e">4</label>
+                     <br>
+
+                       <input type="checkbox" id="r" name="ra" >
+                    <label for="r">5</label>
+               </dv>
+               <br>
+               
+              <button>Send your message</button>
+           </form>
+ </body>
+ </html>
