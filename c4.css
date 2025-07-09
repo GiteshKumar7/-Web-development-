@@ -1,0 +1,46 @@
+/* 
+ text-align,font-weight,text-decoration line height,letter spacing and text-size
+*/
+
+h1{
+    text-align: center; 
+    text-decoration: wavy green underline;
+    letter-spacing: 10px;
+    font-family:arial;
+
+   /*  border:solid;
+    width: 50%; 
+    */
+}
+
+h2{
+    text-align:right;
+    font-weight:normal;
+    text-decoration: double skyblue overline;
+    letter-spacing:10px;
+     font-family:fantasy;
+
+}
+
+div{  
+    text-align:justify;
+    font-weight:500;
+       text-decoration: double red line-through;
+       line-height:2.5;
+       font-size:20px;
+       font-family:impact;
+}
+
+p{
+    text-align:start;
+     font-weight: bold;
+     text-decoration:dashed maroon underline;
+     line-height:normal;
+     font-size:20px;
+}
+
+a{
+    text-decoration: wavy green overline ;
+}
+
+
