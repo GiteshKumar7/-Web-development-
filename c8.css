@@ -1,0 +1,22 @@
+/*code for multiple innheritance*/
+
+div{
+    background-color: green;
+}
+
+form{
+    background-color: blue;;
+}
+
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: maroon;
+}
