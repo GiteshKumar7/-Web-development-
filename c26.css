@@ -1,0 +1,70 @@
+
+.box{
+    height:100px;
+    width:30px;
+    background-color: pink;
+    text-align: center;
+
+
+
+    /* animation-name: widthAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+
+    animation: colAnimation 3s ease-in 0s 3 normal;
+}
+
+/*  1.animation  with many items */
+@keyframes widthAnimation{
+    form{
+        width: 1px;
+           background-color: red;
+    }
+    to{
+        width: 400px;
+         background-color: green;
+         border-radius: 15px;
+    }
+}
+
+/*  2.animation  with many items */
+@keyframes colAnimation{
+     0%{
+        background-color: red;
+     }
+     50%{
+        background-color: yellow;
+        width: 300px;
+     }
+     75%{
+        background-color: black;
+        height: 200px;
+     }
+     100%{
+        background-color: aqua;
+     }
+}
+
+/*  3.animation  with font-size items */
+@keyframes fontAnimation{
+    form{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+/*  5.animation  with color items */
+@keyframes colorAnimation{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: green;
+    }
+}

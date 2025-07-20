@@ -1,0 +1,49 @@
+/* alpha : visibility of color */
+ /* div{
+    height:200px;
+    width:200px;
+    background-color:rgba(255, 0, 0, 0.863);
+} */
+
+/* opacity :visibility of element */
+/* #opacity{
+     height:200px;
+    width:200px;
+    background-color:orange;
+    opacity: .2;
+}  */
+
+
+
+
+/* 2.1css transitions */
+/* div{
+    height:200px;
+    width:200px;
+    background-color:mediumorchid;
+    transition-duration:2s;   
+    transition-delay:2s;  
+}
+
+div:hover{
+    background-color:black;
+    border-radius:50%;
+} */
+
+/* 2.2css transitions */
+div{
+    height:20px;
+    width: 500px;
+    text-align: center;
+    background-color:mediumorchid;
+     margin:0 auto;
+    margin-top:10px;
+    transition:margin-top 1s ease-in 1s;
+
+}
+
+div:hover{
+    background-color: green;
+    border-radius: 50px;
+    margin-top:500px;
+} 

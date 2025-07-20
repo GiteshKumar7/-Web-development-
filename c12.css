@@ -1,0 +1,57 @@
+/*1...... percentage % */
+/* h1{
+    height: 200px;
+    width:200px;
+    background-color: green;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px; 
+}
+
+
+#outer{
+    height: 200px;
+    width: 200p x;
+    background-color: cornflowerblue;
+    margin:50px;
+}
+
+
+#inner{
+    height:50px;
+    width:50px;
+    background-color:blue;
+    margin-left: 20%;
+} */
+
+
+/* 2........for em  */
+
+#outer{
+    height:  200px;
+    width:200px;
+    background-color: pink;
+    border:2px solid black;
+    font-size: 20px;;
+}
+
+#inner{
+    height:50px;
+      width:50px;
+      background-color: cornflowerblue;
+      font-size:.5em; /* on the basis of parents  font size*/
+      padding:1em;
+      margin: 1em;
+      border:2px solid blue;
+}
+
+
+button{
+    font-size:50px;
+    border-radius:50px;
+    border: 5px solid  green;
+    background-color: blue;
+    padding-left:  .5em;
+    padding-right:  .5em;
+    margin: 2px;
+}

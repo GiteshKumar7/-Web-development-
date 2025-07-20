@@ -1,0 +1,48 @@
+h1{
+   background-color: blue;
+   text-align: center;
+   border: 2px solid black;
+}
+
+@media(width : 400px){
+    h1{
+        background-color: red;
+        color:white;
+    }
+
+    div{
+        height: 100px;
+        width: 200px;
+         background-color: skyblue;
+    }
+}
+
+
+@media (min-width:700px){
+    h1{
+        background-color: yellow;
+    }
+}
+
+@media (max-width:300px){
+    h1{
+        background-color: aqua;
+    }
+}
+
+
+/*  in range,combined  min and max */
+
+@media(min-width:401px) and (max-width:699px){
+    h1{
+        background-color:goldenrod;
+    }
+} 
+
+
+@media (orientation: landscape){
+   h1{
+    background-color: teal;
+    color: maroon;
+   }
+}

@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    text-align:center;
+    border: 2px solid black;
+    margin: 20px;
+    display:inline-block;
+}
+
+#Static{
+    background-color: orangered;
+    position: static;
+    top: 100px;
+    left: 200px;
+}
+
+
+#relative{
+    background-color: orangered;
+    position: relative;
+    top: 150px;
+     left: 300px;
+}
+
+
+#absolute{
+    background-color: orangered;
+    position: absolute;
+    top: 150px;
+     left: 300px;
+}
+
+#fixed{
+      background-color: orangered;
+    position: fixed;
+    top: 150px;
+     left: 300px;
+}
+
+
+#sticky{
+     background-color: orangered;
+    position: fixed;
+    top: 150px;
+     left: 10px;
+}

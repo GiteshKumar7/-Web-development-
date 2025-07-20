@@ -1,0 +1,57 @@
+/*1.... for the Dispaly elements */
+/* h2{
+    display:inline;
+    background-color: red;
+    margin:10px;
+}
+
+span{
+    display:block;
+    background-color: green;
+     margin:10px;
+    
+} */
+
+
+/*2... paragraph */
+/* 
+span{
+    background-color:none;
+    border:2px solid black;
+
+    height:100px;
+    width:150px;
+
+    padding:50px;
+    margin: 30px;
+}
+
+div{
+   background-color:none;
+    border:2px solid black;
+
+    height:100px;
+    width:150px;
+
+    padding:50px;
+    margin: 30px;
+}
+
+ */
+
+
+ /* 3... */
+ 
+ div{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    border: 2px solid green;
+    margin: 2px;
+    display: inline-block; 
+ }
+
+ 
+ #w{
+    display: none;
+ }
