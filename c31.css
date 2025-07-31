@@ -1,0 +1,41 @@
+.card{
+    height: 300px;
+    display: grid;
+   
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns:repeat(12,1fr);
+    grid-gap:10px;
+}
+
+.card div{
+     text-align: center;
+    background-color: pink;
+}
+
+.a{
+     grid-column: 1/13;
+}
+
+.b{
+       grid-column: 1/13;
+}
+
+.c{
+    grid-column: 1/4;
+    grid-row :3/13;
+}
+
+.d{
+    grid-column:4/13;
+    grid-row:3/12;
+}
+
+.e{
+    grid-column: 1/4;
+    grid-row:12/13;
+}
+
+.f{
+     grid-column: 4/13;
+    grid-row:12/13;
+}
