@@ -1,0 +1,10 @@
+
+#btn{
+    background-color: blue;
+    color:white;
+}
+
+.line{
+/* text-decoration: underline wavy rgb(12, 5, 12); */
+ text-decoration: underline wavy red;
+}
